@@ -1,0 +1,4 @@
+READ-ME
+
+In order to run the Facebook Authenitcation, you need to use the secrets.json file stored in Web Application and use the information 
+to replace the secrets.json file in the project. 

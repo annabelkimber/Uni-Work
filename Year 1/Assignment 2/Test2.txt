@@ -1,0 +1,4 @@
+Captain America,04,07,1920,Brooklyn,America,American,Bucky;Freedom
+Thor,01,03,1800,Asgard,MCU,Asgardian,Saving Asguard;Hammers;Coffee
+Tony Stark,05,03,1968, Massachusetts,America,American,Technology;Women;Avengers
+Black Widow,30,09,1970,Stalingrad,Russia,Russian,Fighting;Assination

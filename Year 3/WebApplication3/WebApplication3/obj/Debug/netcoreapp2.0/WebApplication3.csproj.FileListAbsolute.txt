@@ -1,0 +1,24 @@
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.deps.json
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.json
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.dev.json
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.dll
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.pdb
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csprojResolveAssemblyReference.cache
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csproj.CoreCompileInputs.cache
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfoInputs.cache
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfo.cs
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.dll
+c:\users\annabel\source\repos\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.pdb
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.deps.json
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.json
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.dev.json
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.dll
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.pdb
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csprojResolveAssemblyReference.cache
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csproj.CoreCompileInputs.cache
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfoInputs.cache
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfo.cs
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.dll
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.pdb
+C:\Users\Annabel\Documents\Web Application Development\Implementation\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

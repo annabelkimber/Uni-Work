@@ -1,0 +1,55 @@
+﻿@model ICollection<WebApplication3.Models.Announcements>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="title_bar">
+    <h1 class="page_title grey">Reviews</h1>
+     <div>
+        <input class="btn btn-default" type="button" value="Add new post" onclick="location.href='@Url.Action("Create", "Announcements")'" />
+    </div> 
+</div>
+@if (Model.Count > 0)
+{
+    <section>
+        <div class="indexNotsure">
+            <div id="galleries">
+                @foreach (var item in Model)
+                {
+                    <div class="gallery">
+                        <div>
+                            <a asp-action="Details" asp-route-id="@item.Id">
+
+                                <div class="date-posted">
+                                    <span class="bold grey">
+                                        Posted:
+                                    </span>@Html.DisplayFor(modelItem => item.DatePosted)
+                                </div>
+                                <div class="stats-layout">
+                                    <span class="bold grey">
+                                        View Count:
+                                    </span>@Html.DisplayFor(modelItem => item.StatsCounter)
+                                </div>
+                                <h1>@Html.DisplayFor(modelItem => item.AnnouceTitle)</h1>
+
+                                <p>
+                                    @Html.DisplayFor(modelItem => item.AnnouceBody)
+                                </p>
+                            </a>
+                        </div>
+                        <span class="action_buttons">
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </span>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <h1>No Search Results Found</h1>
+}

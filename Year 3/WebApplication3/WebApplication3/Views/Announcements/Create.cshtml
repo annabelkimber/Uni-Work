@@ -1,0 +1,39 @@
+﻿@model WebApplication3.Models.Announcements
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="grey">
+<h2>New Announcement</h2>
+</div>
+@*<h4>Announcements</h4>*@
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AnnouceTitle" class="control-label"></label>
+                <input asp-for="AnnouceTitle" class="form-control" />
+                <span asp-validation-for="AnnouceTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnnouceBody" class="control-label"></label>
+                <textarea asp-for="AnnouceBody" class="form-control" ></textarea>
+                <span asp-validation-for="AnnouceBody" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatePosted" class="control-label"></label>
+                <input asp-for="DatePosted" class="form-control" />
+                <span asp-validation-for="DatePosted" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

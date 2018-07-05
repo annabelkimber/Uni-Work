@@ -1,0 +1,39 @@
+﻿@model WebApplication3.Models.Announcements
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="grey">
+    <h2>Edit Announcement</h2>
+</div>
+<div class="edit-page">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="AnnouceTitle" class="control-label"></label>
+                <input asp-for="AnnouceTitle" class="form-control" />
+                <span asp-validation-for="AnnouceTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnnouceBody" class="control-label"></label>
+                <input asp-for="AnnouceBody" class="form-control" />
+                <span asp-validation-for="AnnouceBody" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatePosted" class="control-label"></label>
+                <input asp-for="DatePosted" class="form-control" />
+                <span asp-validation-for="DatePosted" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,332 @@
+﻿.bold {
+    font-weight: bold !important;
+}
+
+.grey {
+    color: grey;
+}
+
+.body_text {
+    color: grey;
+}
+
+.navbar-brand{
+    background-color:lightblue;
+    color:white;
+}
+/*body*/
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Nav Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.navbar navbar-expand-lg navbar-dark bg-primary {
+    background-color: lightblue;
+}
+
+.collapse navbar-collapse {
+    background-color:lightblue;
+}nav li a, li button {
+    display: block !important;
+    color: gray !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+    text-decoration: none !important;
+    background-color: lightblue;
+    font-size: 18px;
+}
+
+nav navbar-nav {
+    background-color:lightblue;
+}
+.bg-primary {
+    background-color: lightblue !important;
+    border-color: rgba(255,255,255,0.5) !important;
+}
+
+a:visited {
+    color: darkslategrey;
+}
+
+a{
+    color:darkgrey;
+}
+
+a:hover {
+    text-decoration: none;
+    color: steelblue;
+}
+
+.nav-item{
+    font-size: 18px
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.btn1 {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    font-style: inherit;
+}
+
+.search-button{
+    align-content:left;
+    font-size:18px;
+    background-color:lightblue;
+}
+
+#bs-example-navbar-collapse-1{
+    background-color:lightblue;
+}
+
+.container-fluid{
+    background-color:lightblue;
+}
+/*.stats{
+
+}*/
+/*Make .svg files in the carousel display properly in older browsers 
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}*/
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+#galleries {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    line-height: 25px;
+    width: 100%;
+    background:lightblue;
+    justify-content: space-around
+}
+
+.date-posted {
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.stats-layout {
+    float: right;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: grey;
+}
+
+.indexNotsure {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.gallery {
+background: aliceblue;
+max-width: 300px;
+margin: 15px;
+float: left;
+margin: 20px 5px 20px;
+padding: 10px 10px 35px;
+text-align: center;
+text-decoration: none;
+-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+box-shadow: 0 4px 6px rgba(0,0,0,.3);
+-webkit-transition: all .15s linear;
+-moz-transition: all .15s linear;
+transition: all .15s linear;
+z-index: 0;
+position: relative;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+
+}
+
+.container-comments {
+    padding: 16px;
+    background-color: aliceblue;
+}
+
+.comment {
+    background: aliceblue;
+    max-width: 300px;
+    margin: 15px;
+    float: left;
+    margin: 20px 5px 20px;
+    padding: 10px 10px 35px;
+    /*text-align: center;*/
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+    z-index: 0;
+    position: relative;
+}
+
+.AddComment {
+    display: block;
+}
+
+#add_comments{
+    width: 20vw;
+}
+
+.comment_container{
+    display: flex;
+    justify-content: space-between;
+    /*background-color:aliceblue;*/
+
+}
+.announcement{
+    background-color:aliceblue;
+    padding:15px;
+}
+
+.comments_table {
+    width: 60%;
+    text-align: left;
+    text-decoration: none;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+    table-layout: fixed;
+    height:unset;
+    overflow: scroll;
+   
+}
+
+.comments_table td, th {
+    max-width: 60%;
+    word-wrap: break-word;
+    border-bottom: 1px solid #ddd;
+}
+
+.Edit-Button {
+    float:right;
+}
+
+.edit-page {
+    align-content:center;
+
+    
+}
+
+.gallery-logo {
+    margin-bottom: 10px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.title_bar {
+    display: flex;
+    justify-content: space-between;
+
+}
+.page_title{
+    display: inline-block
+    }
+
+#facebook-log {
+    background-image: url('../images/fb-sign-in-button.png');
+    image-rendering: auto;
+    background-size: 200px 45px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 45px;
+    background-color: lightblue;
+}
+
+.logo {
+    position: fixed;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -275px;
+}
+
+.top {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    background-color: #aaa;
+    height: 300px;
+    opacity: 1;
+    text-align: center;
+    font-family: 'helvetica';
+    font-size: 80px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.title {
+    position: absolute;
+    top: 60%;
+    left: 100px;
+}
